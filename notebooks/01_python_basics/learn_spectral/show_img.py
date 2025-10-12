@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 加载.mat文件（假设结构为{'indian_pines_corrected': [145,145,200]}）
-mat_data = sio.loadmat('../data/Pavia.mat')
+mat_data = sio.loadmat('../../../data/Pavia.mat')
 print(mat_data.keys())  # 查看所有键
 print(mat_data)
 hsi_data = mat_data['pavia']  # 提取三维数组

@@ -2,7 +2,7 @@ import scipy.io as sio
 import numpy as np
 import matplotlib.pyplot as plt
 
-mat_data = sio.loadmat('../data/jasper.mat')
+mat_data = sio.loadmat('../../../data/jasper.mat')
 nRow = int(mat_data['nRow'][0][0])
 nCol = int(mat_data['nCol'][0][0])
 Y = mat_data['Y']  # (198, 10000)

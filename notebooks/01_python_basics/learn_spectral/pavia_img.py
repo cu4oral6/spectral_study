@@ -4,7 +4,7 @@ from scipy.io import loadmat
 
 # 加载ROSIS高光谱数据
 try:
-    mat_data = loadmat('../data/Pavia.mat')  # 替换为实际文件路径
+    mat_data = loadmat('../../../data/Pavia.mat')  # 替换为实际文件路径
     hsi_data = mat_data['pavia']  # 假设数据存储在'rosis_image'变量中
     wavelengths = mat_data['wavelengths']  # 波长信息
 except FileNotFoundError:
