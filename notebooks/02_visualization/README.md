@@ -1,14 +1,15 @@
-# Week1-4: Visualization / Week1-4: 数据可视化
+# 🌾 Week 2 — 高光谱成像原理与光谱分析（Hyperspectral Imaging Principles & Analysis）
 
-This folder contains a Week1-4 bilingual teaching notebook and short exercises.
-每个文件夹包含一个第1~4周的双语教学笔记与练习题。
+---
 
-Open the notebook in JupyterLab and run the cells step by step.
-在 JupyterLab 中打开 notebook 并按顺序运行代码单元。
+## 🎯 学习目标 / Learning Objectives
+- 理解高光谱成像的物理基础：反射率、波段、噪声  
+  *Understand hyperspectral imaging principles: reflectance, spectral bands, and noise.*  
+- 掌握数据预处理：归一化、坏波段剔除  
+  *Perform normalization and bad band removal.*  
+- 对比不同地物（农田、树木、道路）的光谱特征  
+  *Compare spectral characteristics of different land-cover types.*  
+- 输出 3 类地物平均光谱曲线对比图  
+  *Output comparison plot of average spectra for 3 classes.*
 
-Exercises (examples):
-- Week1: environment check and Python basics / 环境检查与 Python 基础
-- Week2: numpy and data operations / NumPy 与数据操作
-- Week3: pandas and IO / Pandas 与文件读写
-- Week4: small function / 小函数实现
-
+---
